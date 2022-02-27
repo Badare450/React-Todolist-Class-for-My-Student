@@ -1,7 +1,7 @@
 import react from 'react';
 import TodoListItem from './TodoListItem.jsx';
 
-const TodoList = ({Todo}) =>
+const TodoList = ({Todo=['hello','How are you']}) =>
 {
     return(
         <div>
