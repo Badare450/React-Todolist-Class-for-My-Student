@@ -1,10 +1,15 @@
-import react from 'react';
-
+import './TodoListItem.css';
+import Button from '../components/Button.jsx'
 const TodoListItem = ({Todo}) =>
 {
     return(
-        <div>
-              <h1>{Todo}</h1>
+        <div className='Todo-wrapper'>
+              <h1>{Todo}</h1>  
+              <div>
+                  <Button text = "Add" color="red" /> 
+              </div>          
+                     
+             
         </div>
     );
 }
