@@ -4,7 +4,8 @@ const TodoListItem = ({Todo}) =>
 {
     return(
         <div className='Todo-wrapper'>
-              <h1>{Todo}</h1>  
+              <h1>{Todo.id}</h1>  
+              <img src = {Todo.img} />
               <div>
                   <Button text = "Add" color="red" /> 
               </div>          
